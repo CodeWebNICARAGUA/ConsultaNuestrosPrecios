@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWeb | Nicaragua</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/5327f93048.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+  
+
+      <section> 
+
+        <form  action="https://formspree.io/f/xwkayqoe"
+        method="POST" class="form" id="form" >
+    <h1>Contacto</h1>
+    <center><hr color="black" size="7" align="center" width="150"></center>
+   
+   <label><i class="fas fa-user"></i> Nombre Completo</label>
+   <input type="text" id="name" required name="nombre">
+   <label><i class="fas fa-at"></i> Correo Electronicio</label>
+   <input type="email"  id="name" required name="Correo">
+   <label><i class="fas fa-paper-plane"></i> Mensaje</label>
+  <textarea name="Mensaje" id="Mensaje" cols="30" rows="10" required></textarea>
+  <button type="submit" onclick="window.open('agradecimiento.html')" required>Enviar</button>
+   
+</form>
+
+
+<section class="diseño-1">
+
+  <img src="diseño.png" alt="" class="diseño-img">
+
+
+
+
+
+</section>
+
+
+
+<section class="diseño-2">
+
+<h3>Tienes algun diseño web para tu pagina web?</h3>
+<h4>Rellena Nuestro Formulario:)</h4>
+<p>Completa Nuestro Formulario y te escribiremos pronto :)</p>
+
+<button type="submit" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScqMa_1d3v4AzDbrk93-PlUtxrATY3EKPSTAIySjkGvJNHelw/viewform?pli=1')">Ir al Formulario</button>
+<img src="diseño.png" alt="" class="contacto-img2" width="20">
+
+
+<img src="diseño2.png" alt="contacto-codweb" class="contacto-img">
+
+
+
+</section>
+
+
+<section class="redes-sociales">
+  
+  
+<h1>Formas de contactarnos</h1>
+<center><hr color="black" size="7" align="center" width="250"></center>
+  
+<center><a href="https://api.whatsapp.com/send?phone=50588952227&app=facebook&entry_point=page_cta&fbclid=IwAR08GRBRNYlff6zpSSNQuHiToUMIqsAZl9NTOa-kGU2PyAdMZcW62fm_whA"><i class="fab fa-whatsapp-square" style="color: black;"></i></a>
+  <a href="tel:+50588952227"><i class="fas fa-phone-alt" style="color: black;"></i></center></a>
+ 
+</section>
+
+
+
+<div class="pagina-pie">
+
+  <h2>Todos los derechos reservados © | CodeWeb | Nicaragua</h2>
+
+
+
+
+</div>
+
+
+<script>
+
+const $form = document.querySelector('#form')
+
+$form.addEventListener('submit',  handleSubmit)
+async function handleSubmit(event){
+
+event.preventDefault()
+const form = new FormData (this)
+const response= await fetch(this.action, {
+
+method:this.method,
+body: form,
+headers:{
+
+'Accept':'aplication/json'
+
+
+
+}
+
+
+})
+
+if(Response.ok){
+
+this.reset
+alert('Se ha enviado exitosamente tu formulario. Te contactaremos pronto')
+
+
+
+}
+
+}
+
+
+
+
+
+</script>
+  
+  
+  
+  
+  
+  </section>
+
+
+
+
+  
+    
+  </body>
+
+
+</html>

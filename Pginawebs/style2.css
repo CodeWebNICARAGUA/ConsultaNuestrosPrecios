@@ -1,0 +1,833 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+
+margin: 0;
+
+
+
+}
+
+
+.form h1{
+
+
+  font-size: 70px;
+  padding: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  
+
+}
+
+
+.form input{
+
+
+
+height: 35px;
+width: 20%;
+border-radius: 5px;
+border: 3px solid black;
+margin-bottom: -800px;
+margin-top: 15px;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+margin-left: 90px;
+
+
+
+}
+
+
+
+.form label{
+
+    font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 90px;
+  margin-top: 50px;
+  display: block;
+  
+}
+
+.form textarea{
+
+
+
+    display: block;
+    resize: none;
+    font-size: 16px;
+font-weight: bold;
+margin-top: 15px;
+font-family: 'Roboto Condensed', sans-serif;
+width: 20%;
+margin-left: 90px;
+border-radius: 5px;
+border: 3px solid black;
+
+
+
+}
+
+.form button{
+
+margin-top: 50px;
+height: 40px;
+width: 10%;
+border-radius: 5px;
+border: none;
+background-color: black;
+color: white;
+font-family: 'Roboto Condensed', sans-serif;
+outline: none;
+font-weight: bold;
+cursor: pointer;
+margin-left: 90px;
+
+
+
+
+}
+
+
+
+.diseño-img{
+
+
+width: 50%;
+float: right;
+padding: 40px;
+margin-top: -630px;
+
+
+
+
+
+}
+
+
+
+.diseño-2 h3{
+
+margin-top: 170px;
+text-align: right;
+font-size: 35px;
+font-family: 'Roboto Condensed', sans-serif;
+padding-right: 90px;
+
+
+
+
+
+}
+
+
+.diseño-2 p{
+
+text-align: right;
+margin-top: 50px;
+padding-right: 180px;
+font-size: 20px;
+font-family: 'Roboto Condensed', sans-serif;
+font-weight: bold;
+
+
+
+}
+
+
+
+.diseño-2 button{
+
+
+ float: right;
+ margin-top: 40px;
+ margin-right: 260px ;
+ height: 45px;
+ width: 20%;
+ background-color: black;
+ font-family: 'Roboto Condensed', sans-serif;
+ color : white;
+ font-weight: bold;
+border: none;
+border-radius: 5px;
+font-size: 15px;
+cursor: pointer;
+outline: none;
+
+
+}
+
+
+.contacto-img{
+
+width: 40%;
+margin-top: -210px;
+float: left;
+
+
+
+}
+
+.diseño-2 h4{
+
+visibility: hidden;
+
+
+
+}
+
+
+.pagina-pie{
+
+
+background-color: black;
+height: 120px;
+margin-top: 90px;
+
+
+
+
+}
+
+
+.pagina-pie h2{
+
+  color: white;
+  padding: 45px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+
+
+
+
+
+}
+
+
+
+.contacto-img2{
+
+visibility: hidden;
+
+
+
+
+}
+
+
+
+@media(max-width:414px){
+
+
+
+  .contacto-img2{
+
+    visibility: visible;
+    margin: auto;
+    display: block;
+    width: 80%;
+    margin-top: 60px;
+    
+    
+    
+    
+    
+      }
+      
+
+
+
+
+  .contacto-img{
+
+
+visibility: hidden;
+
+
+
+}
+
+
+
+.diseño-2 p{
+
+visibility: hidden;
+
+
+
+}
+
+
+
+
+
+.diseño-2 h4{
+
+
+
+  visibility: visible;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+font-family: 'Roboto Condensed', sans-serif;
+font-weight: bold;
+
+
+
+
+}
+
+
+.diseño-2 button{
+
+ 
+margin-top: -120px;
+width: 50%;
+float: left;
+margin-left: 100px;
+
+
+
+
+
+}
+
+
+
+.pagina-pie{
+
+
+height: 150px;
+
+
+
+}
+
+
+
+
+
+}
+
+
+
+@media(max-width:384px){
+
+.pagina-pie{
+
+height: 200px;
+margin-top: 60px;
+padding: 3px;
+
+
+
+}
+
+  
+  
+.diseño-2 h4{
+
+  visibility: visible;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+font-family: 'Roboto Condensed', sans-serif;
+font-weight: bold;
+
+  
+  
+  }
+
+
+
+  .redes-sociales i{
+
+    padding: 50px;
+
+
+
+
+
+  }
+
+
+
+  .contacto-img2{
+
+visibility: visible;
+margin: auto;
+display: block;
+width: 80%;
+margin-top: 60px;
+
+
+
+
+
+  }
+  
+  
+  
+  
+  .diseño-2 h3{
+
+font-size: 25px;
+
+
+}
+
+
+
+.diseño-2 p{
+
+
+
+visibility: hidden;
+padding-left: -10px;
+
+
+
+
+}
+
+
+
+.diseño-2 button{
+
+
+margin-top: -120px;
+width: 50%;
+float: left;
+margin-left: 90px;
+
+
+
+
+
+}
+
+
+
+.contacto-img{
+
+visibility: hidden;
+
+
+
+}
+
+
+.codigo-1{
+
+width: 50%;
+margin-top: -40px;
+
+
+
+
+
+}
+
+
+
+}
+
+
+
+.redes-sociales div{
+
+
+visibility: hidden;
+
+
+
+
+}
+
+.redes-sociales i{
+
+
+margin-top: 100px;
+font-size: 130px;
+padding-left: 40px;
+padding: 10px;
+
+
+
+
+}
+
+
+.redes-sociales h1{
+
+
+
+  font-size: 70px;
+  padding: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  margin-top: 250px;
+
+
+
+
+}
+
+
+.codigo-1{
+
+
+visibility: hidden;
+
+
+
+
+
+}
+
+
+@media(max-width:384px){
+
+
+.redes-sociales h1{
+
+
+font-size: 60px;
+margin-top: -100px;
+
+
+
+
+}
+
+
+
+
+
+
+
+}
+  
+
+
+
+
+
+
+@media(max-width:768px){
+
+
+.diseño-2 h3{
+
+padding-left: 50px;
+text-align: center;
+font-size: 35px;
+
+
+
+
+}
+
+
+
+.diseño-2 p{
+
+
+text-align: center;
+padding-left: 140px;
+
+
+}
+
+
+.contacto-img{
+
+
+margin-top: 60px;
+width: 70%;
+margin-left: 110px;
+
+
+
+
+
+
+}
+
+.diseño-2 button{
+
+margin-right: 300px;
+
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+@media(max-width:1024px){
+
+
+  .diseño-2 h3{
+  
+  
+  padding-right: 50px ;
+  
+  
+  
+  }
+
+
+
+
+  .diseño-2 p{
+
+padding-right: 140px;
+
+
+
+  }
+  
+  
+  
+  
+  }
+  
+
+
+@media(max-width:1024px){
+
+.form input{
+
+
+width: 30%;
+
+
+
+
+}
+
+
+.form textarea{
+
+
+width: 30%;
+
+
+
+}
+
+
+
+
+.form button{
+
+
+width: 15%;
+
+
+
+}
+
+
+.diseño-img{
+
+
+
+margin-top: -590px;
+
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media(max-width:768px){
+
+.diseño-img{
+
+margin-top: -540px;
+
+
+
+
+
+}
+
+
+
+
+
+}
+
+
+
+@media(max-width:384px){
+
+.form input{
+
+
+ width: 70% ;
+ margin-left: 50px;
+
+
+
+}
+
+
+.form textarea{
+
+  width: 70% ;
+  margin-left: 50px;
+
+
+
+}
+
+
+.form label{
+
+  margin-left: 50px;
+
+
+
+}
+
+
+
+.form button{
+
+
+width: 30%;
+margin-left: 50px;
+
+
+}
+
+
+.diseño-img{
+
+margin-top: 50px;
+width: 80%;
+margin-right: 10px;
+
+
+
+
+}
+
+
+
+
+
+.form h1{
+
+text-align: center;
+margin-left: 20px;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+@media(max-width:414px){
+
+
+.diseño-img{
+
+  margin-top: 50px;
+  width: 80%;
+  margin-right: 10px;
+  
+
+
+
+}
+
+
+
+.form input{
+
+
+  width: 70% ;
+  margin-left: 50px;
+ 
+ 
+ 
+ }
+ 
+ 
+ .form textarea{
+ 
+   width: 70% ;
+   margin-left: 50px;
+ 
+ 
+ 
+ }
+ 
+ 
+ .form label{
+ 
+   margin-left: 50px;
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ .form button{
+ 
+ 
+ width: 30%;
+ margin-left: 50px;
+ 
+ 
+ }
+
+
+
+
+
+
+
+
+
+}
+

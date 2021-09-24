@@ -1,0 +1,801 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{
+
+margin: 0;
+;
+
+
+}
+.hamburguer{
+position: fixed;
+top: 30px;
+right:  30px;
+color: black;
+width: 40px;
+height: 40px;
+cursor: pointer;
+border-radius: 10px;
+margin-right: -2px;
+font-size: 30px;
+text-align: center;
+
+
+
+
+
+
+
+
+}
+
+
+
+
+.menu-navegacion{
+
+position: fixed;
+top: 0;
+right:  0;
+width: 40vh;
+height: 100%;
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+
+transition: transform .3s ease-in-out;
+transform: translate(110%);
+
+
+
+}
+
+
+.spread{
+
+
+transform: translate(0);
+
+
+
+}
+
+
+
+
+.menu-navegacion a{
+
+color: white;
+text-decoration: none;
+font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+
+    .inicio h1{
+
+ padding: 10px;
+ font-family: 'Roboto Condensed', sans-serif;
+
+
+    }
+
+
+    .inicio-1 h1{
+
+
+
+        text-align: center;
+        margin-top: 80px;
+        font-size: 55px;
+        font-family: 'Roboto Condensed', sans-serif;
+
+
+
+
+
+    }
+
+
+
+    .inicio-1 p{
+
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+
+
+
+
+
+
+    }
+
+
+
+    .buttons-1{
+
+   height: 45px;
+   width: 30%;
+   border-radius: 50px;
+   border: 3px solid black;
+   background-color: white;
+   font-family: 'Roboto Condensed', sans-serif ;
+   font-weight: bold ;
+   font-size: 17px;
+   cursor: pointer;
+
+
+
+
+    }
+
+
+    .img-1{
+
+
+   width: 25%;
+   
+   float: right;
+   margin-right: 30px;
+
+
+
+
+
+
+    }
+
+
+    .precios h1{
+
+margin-top: 160px ;
+text-align: center;
+font-size: 40px;
+font-family: 'Roboto Condensed', sans-serif ;
+
+
+
+
+
+    }
+
+
+
+
+
+    .cards{
+
+
+      
+       width: 20%;
+       height: 520px;
+       float: right;
+       margin-right: 50px;
+       margin-top: 40px;
+       border: 4px solid black;
+       border-radius: 10px;
+
+
+
+
+
+
+    }
+
+
+
+    .cards h3{
+
+     text-align: center;
+     font-size: 30px;
+     font-family: 'Roboto Condensed', sans-serif ;
+     background-color: black;
+     margin-top: -1px;
+     border-radius: 5px;
+     color: white;
+   
+
+
+
+
+
+    }
+
+
+
+    .precios i{
+
+   padding-left: 10px;
+   color: green;
+   font-size: 20px;
+
+
+
+
+
+    }
+
+
+
+    .precios h4{
+
+
+   font-size: 20px;
+   font-family: 'Roboto Condensed', sans-serif ;
+    
+
+
+    }
+
+
+    .precios h2{
+
+   text-align: center;
+   font-family: 'Roboto Condensed', sans-serif ;
+   font-size: 55px;
+  
+
+    }
+
+
+    .icon{
+
+    color: black;
+
+
+
+
+
+    }
+
+     .inicio-2 h1{
+
+    text-align: center;
+    margin-top: 850px;
+    font-family: 'Roboto Condensed', sans-serif ;
+  font-size: 55px;
+
+
+
+     }
+
+
+
+
+
+     .inicio-2 h4{
+
+      text-align: center;
+    font-size: 35px;
+    margin-top: 65px;
+    font-family: 'Roboto Condensed', sans-serif ;
+
+
+
+
+     }
+
+
+
+     .inicio-2 p{
+
+   text-align: center;
+   font-family: 'Roboto Condensed', sans-serif ;
+  margin-top: -40px;
+  font-weight: bold;
+
+
+
+     }
+
+
+     .img-1{
+
+     float: right;
+     width: 50%;
+     margin-top: 25px;
+
+
+
+
+
+     }
+
+
+     .inicio-2{
+
+  height: 700px;
+
+
+
+     }
+    
+#derechos{
+
+color: white;
+font-family: 'Roboto Condensed', sans-serif ;
+font-size: 40px;
+text-align: center;
+
+
+
+
+}
+
+
+.pie-1 i{
+
+color: white;
+margin-left: 15px;
+font-size: 35px;
+margin-top: -50px;
+
+
+
+
+}
+
+
+.pie-1 h5{
+
+
+color: white;
+text-align: center;
+font-family: 'Roboto Condensed', sans-serif ;
+font-size: 25px;
+
+}
+
+.web-5 h1{
+
+
+margin-top: 850px;
+text-align: center;
+font-family: 'Roboto Condensed', sans-serif ;
+font-size: 50px;
+
+
+
+
+}
+
+
+.web-5 p{
+
+text-align: center;
+font-family: 'Roboto Condensed', sans-serif ;
+font-size: 20px;
+
+
+
+
+
+}
+
+
+
+.pagina-pie2{
+
+
+  background-color: black;
+  height: 120px;
+  margin-top: 120px;
+  
+  
+  
+  
+  }
+  
+  
+  .pagina-pie2 h2{
+  
+    color: white;
+    padding: 45px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+  
+  
+  
+  
+  
+  }
+
+
+
+@media(max-width:1024px){
+
+
+.web-5 h1{
+
+margin-top: 2700px;
+
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:398px){
+
+.pie-1{
+
+height: 150px;
+margin-top: 1700px;
+visibility: hidden;
+
+
+
+
+}
+
+}
+
+
+
+@media(max-width:768px){
+
+.pie-1{
+
+margin-top: 1200px ;
+
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+@media(max-width:1024px){
+
+
+.pie-1{
+
+margin-top: 1650px ;
+
+
+
+
+
+}
+
+
+
+
+}
+
+
+
+
+     @media(max-width:768px){
+
+
+    .inicio-2 h4{
+
+   text-align: left;
+   margin-left: 80px;
+   margin-top: 25px;
+
+
+    }
+
+
+    .inicio-2 p{
+
+      text-align: left;
+      margin-left: 80px;
+    
+   
+   
+ 
+      
+   
+       }
+
+
+
+       .img-1{
+
+        
+ 
+
+       }
+   
+   
+
+
+
+
+
+
+
+
+     }
+     
+     
+     
+     
+     @media(max-width:414px){
+
+   .img-1{
+
+  width: 85%;
+
+
+
+
+
+   }
+
+
+
+
+
+
+     }
+
+     @media(max-width:384px){
+
+   .img-1{
+
+   width: 95%;
+   margin-left: 40px;
+   
+
+
+
+
+   }
+
+
+
+   
+   
+
+
+
+     }
+
+
+
+     @media(max-width:1024px){
+
+    .img-1{
+
+margin-top: 60px;
+
+
+
+    }
+
+    .inicio-2 h4{
+
+  font-size: 30px;
+
+
+
+
+    }
+
+
+
+
+
+     }
+
+
+
+
+    
+
+    
+    @media(max-width:1024px){
+
+
+   .ff-1{
+
+    width: 5%;
+
+
+
+
+
+   }
+
+
+   .hamburguer{
+
+    margin-right: -3px ;
+
+
+
+
+   }
+
+
+
+
+
+    }
+
+
+
+
+
+
+    @media(max-width:584px){
+
+
+
+        .buttons-1{
+
+      width: 60%;
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+    }
+
+
+
+    @media(max-width:1108px){
+
+   .cards{
+
+    width: 60%;
+   margin-right: 220px;
+    
+
+
+
+
+   }
+
+
+
+
+    }
+
+
+    
+    @media(max-width:768px){
+
+      .cards{
+   
+       width: 60%;
+      margin-right: 160px;
+     
+       
+   
+   
+   
+   
+      }
+   
+   
+   
+   
+       }
+
+
+        
+    @media(max-width:384px){
+
+      .cards{
+   
+      
+        width: 100%;
+        margin: auto;
+        display: block;
+        margin-bottom: 39px;
+        margin-right: -80px;
+        margin-top: 40px;
+       
+       
+   
+   
+      }
+
+
+
+
+      .pagina-pie2{
+
+  height: 150px;
+  margin-top: 50px;
+  width: 100%;
+
+
+
+
+
+      }
+
+      
+   
+   
+   
+   
+       }
+
+
+
+       @media(max-width:414px){
+
+        .cards{
+     
+        
+      width: 90%;
+      margin: auto;
+      display: block;
+      margin-bottom: 39px;
+      margin-right: 15px;
+      margin-top: 40px;
+     
+     
+     
+     
+        }
+  
+
+
+        .pagina-pie2{
+
+
+
+height: 150px;
+
+
+        }
+  
+        
+     
+     
+     
+     
+         }
+
+
+
+      
+      
+   
+   
+   
+
+
+
